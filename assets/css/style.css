@@ -2,9 +2,9 @@
  * style.css
 \*-----------------------------------*/
 
-@font-face {
-  font-family: "Saira Stencil One";
-  src: url('./headline.ttf') format('ttf');
+ @font-face {
+  font-family: "localFont";
+  src: url('./Nuralam\ Ekattor\ B2003.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -316,7 +316,7 @@ body.active { overflow: hidden; }
 
 .logo a {
   color: var(--color-primary);
-  font-family: var(--ff-saira-stencil-one);
+  font-family: 'localFont';
 }
 
 .logo span {
