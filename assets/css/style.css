@@ -2,7 +2,12 @@
  * style.css
 \*-----------------------------------*/
 
-
+@font-face {
+  font-family: "Saira Stencil One";
+  src: url('./headline.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
 
 
 
@@ -28,7 +33,7 @@
    * typography
    */
 
-  --ff-saira-stencil-one: "Saira Stencil One", sans-serif; 
+  --ff-saira-stencil-one: "Saira Stencil One"; 
   --ff-poppins: 'Poppins', sans-serif;
   --ff-roboto: 'Roboto', sans-serif;
 
