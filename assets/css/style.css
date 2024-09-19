@@ -9,6 +9,19 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "badhon";
+  src: url('./FN\ Badhon\ Anmona\ ANSI\ V1.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ekush";
+  src: url('./Ekush-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 
 
@@ -187,7 +200,10 @@ body.active { overflow: hidden; }
   font-weight: 400;
 }
 
-.h2,
+h2.h2.hero-title{
+  font-family: 'ekush';
+  color: var(--color-primary);
+}
 .h3,
 .h4 {
   color: var(--color-primary);
@@ -429,7 +445,7 @@ body.active { overflow: hidden; }
   width: max-content;
   margin-inline: auto;
   color: var(--color-primary);
-  font-family: var(--ff-poppins);
+  font-family: 'badhon', sans-serif;
   font-size: var(--fs-1);
   padding: 10px;
   transform: translateY(50px);
