@@ -202,6 +202,7 @@ body.active { overflow: hidden; }
 
 h2.h2.hero-title{
   font-family: 'ekush';
+  font-weight: normal;
   color: var(--color-primary);
 }
 .h3,
